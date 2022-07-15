@@ -1,8 +1,14 @@
 
-
+.nav-link{
+  
+  margin-right:3.5rem;
+    
+}
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 0%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+    margin-bottom: 20px;
+    background-color: black;
    
 }
 
@@ -17,9 +23,10 @@
 }
 
 body{
-    background-image: url(./img/powerwash.jpg);
+    background-image: url(./img/background3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 .abthead, span{
@@ -44,7 +51,7 @@ body{
     
 }
 .familyInfo {
-    font-size: 30px;
+    font-size: 1.87rem;
     border: 5px solid white;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -71,7 +78,7 @@ img {
     }
 
 .bottom{
-    border-bottom: 5px solid blue;
+    /* border-bottom: 5px solid blue; */
     margin-top: 2rem;
 }
 #comunityFam {
@@ -89,4 +96,11 @@ img {
 
 .sliderborder{
     border-radius: 5px;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    border-color: 2px white;
 }
